@@ -16,12 +16,12 @@ Matric NO : 24/14094
 
 
 ## Project Overview
-The Student Task Management System is a simple console-based application designed to help students organize and track their daily academic tasks.
+The Student Task Management System is a GUI-based application designed to help students manage academic tasks efficiently. The system allows users to add tasks, view them, and mark tasks as completed using an intuitive graphical interface.
 
 
 
 ## Problem Statement
-Many students struggle with managing academic tasks such as assignments, projects, and personal study goals. This project provides a simple solution to manage tasks efficiently using a basic software system.
+Students often find it difficult to track multiple academic tasks and deadlines. This project provides a simple and interactive software solution that helps students organize their tasks digitally.
 
 
 
@@ -29,50 +29,53 @@ Many students struggle with managing academic tasks such as assignments, project
 
 ### Requirement Analysis
 The system must:
-- Allow users to add tasks
-- Display all tasks
+- Allow students to add new tasks
+- Display all tasks clearly
 - Mark tasks as completed
-- Run in a simple console environment
+- Provide a user-friendly GUI
+- Use consistent naming between design and implementation
 
 
 
 ### System Design
-The system is designed as a menu-driven Python program.
-- Tasks are stored in a list
-- Each task has:
-  - Task name
+- The system is designed using Python’s Tkinter library
+- Tasks are stored in a list of dictionaries
+- Each task contains:
+  - Task description
   - Completion status
+- Blue-themed buttons with soft hover animations are used for better user experience
+
 
 
 ### Implementation
-The system is implemented using Python.
+The system is implemented in Python using Tkinter.
 Key functions include:
-- `add_task()`
-- `view_tasks()`
-- `complete_task()`
-- `main()`
+- `add_task()` – Adds a new task
+- `complete_task()` – Marks a task as completed
+- `update_task_list()` – Refreshes the task display
 
-All function names used in the design match the implementation exactly.
+All function names used in the design phase are maintained exactly in the implementation.
 
 
 
 ### Testing
 The system was tested by:
 - Adding multiple tasks
-- Viewing task lists
-- Marking tasks as completed
-- Handling invalid inputs
+- Completing selected tasks
+- Handling empty input and invalid selections
+- Verifying GUI responsiveness
 
 
 
 ### Deployment
-The application runs locally using the Python interpreter and does not require additional dependencies.
+The application runs locally on any system with Python installed. No external libraries are required.
 
 
 
 ### Maintenance
-The system can be extended in future to include:
-- File storage
-- User authentication
-- Graphical user interface (GUI)
+Future improvements may include:
+- Saving tasks to a file
+- Adding deadlines and priorities
+- Enhancing UI animations
+- Multi-user support
 
