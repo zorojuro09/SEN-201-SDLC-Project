@@ -52,7 +52,7 @@ The system is implemented in Python using Tkinter.
 Key functions include:
 - `add_task()` – Adds a new task
 - `complete_task()` – Marks a task as completed
-- `update_task_list()` – Refreshes the task display
+
 
 All function names used in the design phase are maintained exactly in the implementation.
 
